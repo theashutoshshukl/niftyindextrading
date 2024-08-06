@@ -29,6 +29,7 @@
 
         .first h1 {
             font-family: "Roboto Mono", monospace;
+            text-align: center;
         }
 
         .first .pp {
@@ -65,16 +66,10 @@
             margin-top: 5px;
             color: #3a3939;
         }
-
-        @keyframes pulse {
-            0% {
-                background-color: #007bff;
-            }
-            50% {
-                background-color: #0056b3;
-            }
-            100% {
-                background-color: #007bff;
+        
+        @media screen and (max-width: 500px) {
+            .first h1 {
+                font-size: 27px;
             }
         }
     </style>
